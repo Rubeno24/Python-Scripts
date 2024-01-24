@@ -14,12 +14,14 @@ def open_program(program_path,folderPath):
 # This code block will only run if the script is executed directly
 if __name__ == "__main__":
     # Urls we want to open that will be passed to openBrowser method
-    vsCodeUrl = "https://github.com/"
+    githubUrl = "https://github.com/Rubeno24?tab=repositories"
     chatGptUrl = "https://chat.openai.com/"
+    leetcode75 = "https://leetcode.com/studyplan/leetcode-75/"
 
     # Pass in the url we want to open to that method
+    open_browser(leetcode75)
     open_browser(chatGptUrl)
-    open_browser(vsCodeUrl)
+    open_browser(githubUrl)
 
     # The path to VS Code
     program_path_to_open = r"C:\Users\Ruben Ortega\AppData\Local\Programs\Microsoft VS Code\Code.exe"
